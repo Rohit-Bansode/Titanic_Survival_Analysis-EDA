@@ -1,5 +1,46 @@
 # Project : Titanic Survival Analysis - Exploratory Data Analysis (EDA)
 <br>
-<h2>Project Goal :</h2>
-Analyze the Titanic Passenger data and find out which factor affected survival (Age,Gender,Class,Fare,etc.) Using Python.
+<!-- Project Goal-->
+<h2>Project Goal :</h2><p>Analyze the Titanic Passenger data and find out which factor affected survival (Age,Gender,Class,Fare,etc.) Using Python.</p>
 
+<!-- Dataset -->
+<h2> Dataset : </h2> <p><h3> Titanic dataset(Kaggle) </h3></p>
+<p>Download link: https://www.kaggle.com/c/titanic/data</p>
+<p> -> Download the file [Train.csv]</p>
+
+<!-- Tools and Libraries used -->
+<h2> Tools and Libraries Used : </h2>
+
+| _Python Tools and libraries_ |
+|--------|
+| 1. Pandas |
+| 2. Numpy  |
+| 3. Matplotlib |
+| 4. Seaborn |
+
+<!-- Step by Step Project Roadmap !-->
+<h2> project Structure :</h2>
+
+```
+Titanic_Survival_Analysis-EDA/
+├──data/
+│   └── train.csv
+├──notebooks/
+│   └── Titanic_EDA.ipynb
+├──images/
+│   └── image1.png
+└── README.md
+└── requirement.txt
+
+```
+<!-- Timeline -->
+
+<h2> Suggest Timeline : </h2>
+
+| Day | Task |
+|-----|------|
+| Day 1 | Download data + set up folder + load data |
+| Day 2 | Data cleaning + missing value treatment |
+| Day 3 | Univariate + Bivariate analysis |
+| Day 4 | Create all visualizations + save images |
+| Day 5 | Write insights + create README |
