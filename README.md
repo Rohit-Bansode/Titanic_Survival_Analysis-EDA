@@ -25,10 +25,11 @@
 Titanic_Survival_Analysis-EDA/
 ├──data/
 │   └── train.csv
+│   └── Titanic_Data_Dictionary.xlsx
 ├──notebooks/
 │   └── Titanic_EDA.ipynb
 ├──images/
-│   └── image1.png
+│   └── Missing Value Count.png
 └── README.md
 └── requirement.txt
 
