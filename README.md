@@ -11,12 +11,13 @@
 <!-- Tools and Libraries used -->
 <h2> Tools and Libraries Used : </h2>
 
-| _Python Tools and libraries_ |
+| _Tools and libraries_ |
 |--------|
-| 1. Pandas |
-| 2. Numpy  |
-| 3. Matplotlib |
-| 4. Seaborn |
+| 1. Python |
+| 2. Pandas |
+| 3. Numpy  |
+| 4. Matplotlib |
+| 5. Seaborn |
 
 <!-- Step by Step Project Roadmap !-->
 <h2> project Structure :</h2>
@@ -25,10 +26,11 @@
 Titanic_Survival_Analysis-EDA/
 ├──data/
 │   └── train.csv
+│   └── Titanic_Data_Dictionary.xlsx
 ├──notebooks/
 │   └── Titanic_EDA.ipynb
 ├──images/
-│   └── image1.png
+│   └── Missing Value Count.png
 └── README.md
 └── requirement.txt
 
