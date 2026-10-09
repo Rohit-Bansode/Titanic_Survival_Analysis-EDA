@@ -1,12 +1,15 @@
 # Project : Titanic Survival Analysis - Exploratory Data Analysis (EDA)
 <br>
 <!-- Project Goal-->
-<h2>Project Goal :</h2><p>Analyze the Titanic Passenger data and find out which factor affected survival (Age,Gender,Class,Fare,etc.) Using Python.</p>
+<h2>Project Goal :</h2>
+<p>This project performs Exploratory Data Analysis (EDA) on the famous Titanic dataset.</p>
+<p>That Analyze the Titanic Passenger data and find out which factor affected survival (Age,Gender,Class,Fare,etc.) Using Python, Pandas, Matplotlib and Seaborn.</p>
 
 <!-- Dataset -->
-<h2> Dataset : </h2> <p><h3> Titanic dataset(Kaggle) </h3></p>
-<p>Download link: https://www.kaggle.com/c/titanic/data</p>
-<p> -> Download the file [Train.csv]</p>
+## Dataset :
+- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)
+- **File Used**: `train.csv`
+- **Description**: Contains information about passengers such as age, sex, passenger class, fare, survival status, etc.
 
 <!-- Tools and Libraries used -->
 <h2> Tools and Libraries Used : </h2>
@@ -27,22 +30,29 @@ Titanic_Survival_Analysis-EDA/
 ├──data/
 │   └── train.csv
 │   └── Titanic_Data_Dictionary.xlsx
+├──images/
+│   ├──Bivariate Analysis Image/
+│   ├──Multivariate Analysis Image/
+│   ├──Univariate Analysis Image/
+│   └── Missing Value Count.png
 ├──notebooks/
 │   └── Titanic_EDA.ipynb
-├──images/
-│   └── Missing Value Count.png
 └── README.md
 └── requirement.txt
 
 ```
-<!-- Timeline -->
+<!-- Key Insight (With Scrrenshot of Chart) -->
+## Key Insights (With some Screenshot) : 
 
-<h2> Suggest Timeline : </h2>
+1. **Overall Survival Rate**  
+   Only about **38%** of the passengers survived.
 
-| Day | Task |
-|-----|------|
-| Day 1 | Download data + set up folder + load data |
-| Day 2 | Data cleaning + missing value treatment |
-| Day 3 | Univariate + Bivariate analysis |
-| Day 4 | Create all visualizations + save images |
-| Day 5 | Write insights + create README |
+2. **Gender Impact**  
+   Females had a significantly higher survival rate compared to males.
+
+   ![Survival Rate by Gender](images/bivariate_analysis_image/survival_rate_by_gender.png)
+
+
+<!-- How run the Project -->
+
+
